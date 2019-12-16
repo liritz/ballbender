@@ -1,0 +1,188 @@
+
+
+* {
+  color: white;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+body {
+  background-color: #111111;
+}
+
+.step {
+  width: 1100px;
+  height: 800px;
+  display: flex;
+  /*align-items: center;*/
+  justify-content: center;
+}
+
+.white {
+  background-color: #EEEEEE;
+  border: #ff6600 solid 4px;
+}
+
+.white li {
+  font-size: 20px;
+}
+
+.orange {
+  background-color: #ff6600;
+}
+
+.content {
+  width: 100%;
+  padding: 25px;
+}
+
+.content p {
+  font-size: 40px;
+}
+
+.white  * {
+  font-family: "Comic Sans MS";
+  color: #00000f;
+  padding: 25px;
+}
+
+.white h1 {
+  padding: 25px;
+  color: white;
+}
+
+.about-me {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+.future .about-me p {
+  /*margin-top: 60px;*/
+  opacity: 0;
+}
+
+.future .appear {
+  opacity: 0;
+}
+
+.about-me p {
+  margin-top: 15px;
+}
+
+.active .appear.first {
+  opacity: 100%;
+  transition-delay: 2s;
+  transition-duration: 1s;
+}
+
+.active .appear.second {
+  opacity: 100%;
+  transition-delay: 4s;
+  transition-duration: 1s;
+}
+
+.active .appear.third {
+  opacity: 100%;
+  transition-delay: 5s;
+  transition-duration: 1s;
+}
+
+.active .appear.fourth {
+  opacity: 100%;
+  transition-delay: 6s;
+  transition-duration: 1s;
+}
+
+.active .appear.fifth {
+  opacity: 100%;
+  transition-delay: 8s;
+  transition-duration: 1s;
+}
+
+.active .appear.sixth {
+  opacity: 100%;
+  transition-delay: 9s;
+  transition-duration: 1s;
+}
+
+.active .appear.seventh {
+  opacity: 100%;
+  transition-delay: 11s;
+  transition-duration: 1s;
+}
+
+#title {
+  text-align: center;
+  align-items: center;
+}
+
+/*.game-section {*/
+
+/*  width: 100vw;*/
+/*  height: 100vh;*/
+/*}*/
+
+#ballbender {
+  border-color: transparent;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.centered {
+  align-items: center;
+  justify-content: center;
+}
+
+.only-active {
+  display: none;
+}
+
+.only-active.present {
+  display: flex;
+}
+
+.only-active .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition-duration: 2s;
+}
+
+.only-active.present .content {
+  opacity: 75%;
+  transition-delay: 10s;
+  transition-duration: 2s;
+}
+
+.only-active .content * {
+  margin: 10px;
+  font-size: 18px;
+}
+
+.only-active .content h1 {
+  font-size: 24px;
+}
